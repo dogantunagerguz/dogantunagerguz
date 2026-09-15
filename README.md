@@ -28,6 +28,8 @@ Licence-upgrade targeting, actionable candidate lists, and income and expense an
 
 Customer lifecycle segmentation, booking lead-time reconstruction, and hotel geocoding for an agency serving approximately 4,500 customers across two branches.
 
+*Preview: earlier Power BI export. The current model uses the shorter **Customers** KPI caption.*
+
 `Power BI` `DAX` `Power Query` `Python` `LocationIQ` `SQLite`
 
 [▶ Run the demo](https://github.com/dogantunagerguz/travel-agency-customer-segmentation#run-the-public-demo) · [SQL companion](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/tree/main/sql) · [Full story](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/story.md)
