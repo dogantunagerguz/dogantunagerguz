@@ -1,10 +1,14 @@
 # Dogan Tuna Gerguz
 
-**Seeking Junior BI / Data / Reporting Analyst roles · Based in Berlin · Authorized to work in Germany**
+**Industrial Engineer (Wirtschaftsingenieurwesen) · M.A. International Management · Microsoft PL-300**
 
-Industrial Engineer (Wirtschaftsingenieurwesen) with an M.A. in International Management and Microsoft PL-300 certification. I build practical analytics for operational decisions.
+Seeking junior roles in **BI, Data & Reporting** and **Operations, Business & Process Analysis**. Open to graduate and trainee opportunities in operations, projects, and process improvement.
 
-## Selected BI Projects
+**Based in Berlin · Authorized to work in Germany**
+
+I turn operational data into Power BI reporting, actionable customer lists, and analysis that supports process improvement and day-to-day decisions.
+
+## Selected BI & Operations Projects
 
 ### [Driving School Targeting and Finance](https://github.com/dogantunagerguz/driving-school-targeting-and-finance)
 
