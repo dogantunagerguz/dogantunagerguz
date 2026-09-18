@@ -2,7 +2,10 @@
 
 **Industrial Engineer (Wirtschaftsingenieurwesen) · Business Operations · BI & Data Analytics**
 
-I manage service-business operations, identify business needs and data gaps, and build analytical solutions that support daily decisions. My projects connect customer follow-up, financial visibility and process improvement with hands-on Power BI development.
+I manage service-business operations, identify business needs, address data gaps and turn analysis into daily decisions.
+
+**Scope: 3 business lines** — driver training, psychotechnical assessment and travel services.<br>
+**Reported outcome: weekly reporting effort reduced from 7 to 2 hours** across the wider BI engagement. [Outcome and scope notes](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/blob/main/docs/story.md#operational-delivery-notes).
 
 **Berlin · Authorized to work in Germany · M.A. International Management · Microsoft PL-300**  
 Open to junior, graduate and trainee roles in BI, data, operations and process improvement.
