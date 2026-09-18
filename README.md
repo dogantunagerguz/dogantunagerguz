@@ -1,66 +1,64 @@
 # Dogan Tuna Gerguz
 
-**Industrial Engineer (Wirtschaftsingenieurwesen) · M.A. International Management · Microsoft PL-300**
+**Industrial Engineer (Wirtschaftsingenieurwesen) · Business Operations · BI & Data Analytics**
 
-Seeking junior roles in **BI, Data & Reporting** and **Operations, Business & Process Analysis**. Open to graduate and trainee opportunities in operations, projects, and process improvement.
+I manage service-business operations, identify business needs and data gaps, and build analytical solutions that support daily decisions. My projects connect customer follow-up, financial visibility and process improvement with hands-on Power BI development.
 
-**Based in Berlin · Authorized to work in Germany**
+**Berlin · Authorized to work in Germany · M.A. International Management · Microsoft PL-300**  
+Open to junior, graduate and trainee roles in BI, data, operations and process improvement.
 
-I turn operational data into Power BI reporting, actionable customer lists, and analysis that supports process improvement and day-to-day decisions.
+[How I work and the evidence behind it](docs/working-approach.md) · [LinkedIn](https://linkedin.com/in/dogantunagerguz)
 
-## Selected BI & Operations Projects
+## Selected projects
 
-### [Driving School Targeting and Finance](https://github.com/dogantunagerguz/driving-school-targeting-and-finance)
+### [Renewal outreach: from due dates to the next customer contact](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker)
 
-<a href="https://github.com/dogantunagerguz/driving-school-targeting-and-finance"><img src="https://raw.githubusercontent.com/dogantunagerguz/driving-school-targeting-and-finance/main/assets/dashboard.png" width="420" alt="Driving School: decomposition tree from candidate segment to year and age band"></a>
+**Business question:** Who should staff contact next, and how should recorded outcomes change the follow-up list?
 
-Licence-upgrade targeting, actionable candidate lists, and income and expense analysis. The decomposition tree narrows candidates by segment, year, and age band.
+<a href="https://github.com/dogantunagerguz/psychotechnical-renewal-tracker"><img src="https://raw.githubusercontent.com/dogantunagerguz/psychotechnical-renewal-tracker/main/assets/dashboard.png" width="680" alt="Power BI renewal tracker with urgency categories and a shared contact pool"></a>
 
-`Power BI` `DAX` `Power Query` `Python` `SQLite`
+I translated renewal rules into manageable priority groups and a shared contact pool. Staff record outcomes in the source; the operational Power BI model updates on scheduled refresh. The separate SQL demo includes data-quality controls and tests for repeated snapshot loading.
 
-[▶ Run the demo](https://github.com/dogantunagerguz/driving-school-targeting-and-finance#run-the-public-demo) · [SQL companion](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/tree/main/sql) · [Full story](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/blob/main/docs/story.md)
+[Decision workflow](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/blob/main/docs/decision-workflow.md) · [Run the demo](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker#run-the-public-demo) · [SQL and tests](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/tree/main/sql)
 
-[![Driving School Python and SQL tests](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/actions/workflows/ci.yml)
+[![Renewal tracker Python and SQL tests](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/actions/workflows/ci.yml)
 
-### [Travel Agency Customer Segmentation](https://github.com/dogantunagerguz/travel-agency-customer-segmentation)
+### [Driving school: connect customer eligibility with financial visibility](https://github.com/dogantunagerguz/driving-school-targeting-and-finance)
 
-<a href="https://github.com/dogantunagerguz/travel-agency-customer-segmentation"><img src="https://raw.githubusercontent.com/dogantunagerguz/travel-agency-customer-segmentation/main/assets/dashboard.png" width="420" alt="Travel Agency: booking lead-time scatter, lifecycle filters, seasonal sales and hotel demand"></a>
+**Business question:** Which former trainees are relevant for licence upgrades, and what do the operating records show about costs?
 
-Customer lifecycle segmentation, booking lead-time reconstruction, and hotel geocoding for an agency serving approximately 4,500 customers across two branches.
+<a href="https://github.com/dogantunagerguz/driving-school-targeting-and-finance"><img src="https://raw.githubusercontent.com/dogantunagerguz/driving-school-targeting-and-finance/main/assets/dashboard.png" width="680" alt="Driving-school candidate segments broken down by year and age band"></a>
 
-*Preview: earlier Power BI export. The current model uses the shorter **Customers** KPI caption.*
+I expanded the initial commercial-licence brief to motorcycle and car segments, connected five source types, and added expense classification and nominal cost-per-trainee analysis. Drill-through views give staff contact details for the selected segment.
 
-`Power BI` `DAX` `Power Query` `Python` `LocationIQ` `SQLite`
+[Decision workflow](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/blob/main/docs/decision-workflow.md) · [Run the demo](https://github.com/dogantunagerguz/driving-school-targeting-and-finance#run-the-public-demo) · [SQL and tests](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/tree/main/sql)
 
-[▶ Run the demo](https://github.com/dogantunagerguz/travel-agency-customer-segmentation#run-the-public-demo) · [SQL companion](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/tree/main/sql) · [Full story](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/story.md)
+*Operational reporting uses Power BI and Excel/VBA with manual preparation and refresh.*
 
-[![Travel Agency Python and SQL tests](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/actions/workflows/ci.yml)
+[![Driving-school Python and SQL tests](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/actions/workflows/ci.yml)
 
-### [Psychotechnical Renewal Tracker](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker)
+### [Travel agency: make incomplete exports useful for customer decisions](https://github.com/dogantunagerguz/travel-agency-customer-segmentation)
 
-<a href="https://github.com/dogantunagerguz/psychotechnical-renewal-tracker"><img src="https://raw.githubusercontent.com/dogantunagerguz/psychotechnical-renewal-tracker/main/assets/dashboard.png" width="420" alt="Psychotechnical: renewal KPI cards and candidate contact pool table"></a>
+**Business question:** Who are our returning customers, how far ahead do they book, and which hotels could suit them?
 
-Five-year renewal tracking, prioritised call lists, and a contact pool for commercial drivers. The operational deployment uses scheduled Power BI Service refresh.
+<a href="https://github.com/dogantunagerguz/travel-agency-customer-segmentation"><img src="https://raw.githubusercontent.com/dogantunagerguz/travel-agency-customer-segmentation/main/assets/dashboard.png" width="680" alt="Travel report with booking lead time, customer lifecycle filters, seasonal sales and hotel demand"></a>
 
-`Power BI` `DAX` `Power Query` `Python` `SQLite`
+I requested monthly exports to recover a booking-month proxy, standardised hotel names and corrected table grain before joining the data. Lifecycle and hotel-location views support sales conversations across two branches and approximately 4,500 customer records.
 
-[▶ Run the demo](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker#run-the-public-demo) · [SQL companion](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/tree/main/sql) · [Full story](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/blob/main/docs/story.md)
+[Decision workflow](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/decision-workflow.md) · [Run the demo](https://github.com/dogantunagerguz/travel-agency-customer-segmentation#run-the-public-demo) · [SQL and tests](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/tree/main/sql)
 
-[![Psychotechnical Python and SQL tests](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/actions/workflows/ci.yml)
+*Reports refresh manually. Preview: earlier Power BI export; the current model uses the shorter Customers caption. Recommendation conversion has not been measured.*
 
-Each repository includes a runnable demo and a SQLite companion with executed results and data-quality checks. Public demos use synthetic data; operational source data remains private.
+[![Travel-agency Python and SQL tests](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/actions/workflows/ci.yml)
 
-## Core Tools
+## Tools and credentials
 
-Power BI · DAX · Power Query · SQL / SQLite · Python · Excel · Data Modeling · KPI Reporting
-
-## Credentials
+Power BI · DAX · Power Query · SQL / SQLite · Python · Excel / VBA · Git
 
 - Microsoft Certified: Power BI Data Analyst Associate (PL-300)
 - IBM: Databases and SQL for Data Science with Python
-- M.A. International Management
-- B.Sc. Industrial Engineering
+- M.A. International Management; B.Sc. Industrial Engineering
 
 **Languages:** Turkish (native) · English (C1) · German (B2)
 
-[LinkedIn](https://linkedin.com/in/dogantunagerguz)
+The public demos use synthetic data. SQL pipelines are portfolio companions to the operational Power BI projects. Each project's workflow explains the implemented scope, reported observations and remaining measurement needs.
