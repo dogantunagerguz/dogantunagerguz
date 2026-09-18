@@ -14,11 +14,11 @@ Open to junior, graduate and trainee roles in BI, data, operations and process i
 
 ## Selected projects
 
-| Project | Decision supported | Explore |
-|---|---|---|
-| **[Renewal outreach](#renewal-outreach)** | Who should staff contact next, and how should outcomes change follow-up? | [Workflow](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/blob/main/docs/decision-workflow.md) · [Demo](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker#run-the-public-demo) |
-| **[Driving-school targeting & finance](#driving-school-targeting--finance)** | Which trainees fit an upgrade segment, and what do costs show? | [Workflow](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/blob/main/docs/decision-workflow.md) · [Demo](https://github.com/dogantunagerguz/driving-school-targeting-and-finance#run-the-public-demo) |
-| **[Travel customer analysis](#travel-customer-analysis)** | Which customers return, when do they book, and which hotels could suit them? | [Workflow](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/decision-workflow.md) · [Demo](https://github.com/dogantunagerguz/travel-agency-customer-segmentation#run-the-public-demo) |
+| [Renewal outreach](#renewal-outreach) | [Driving-school targeting & finance](#driving-school-targeting--finance) | [Travel customer analysis](#travel-customer-analysis) |
+|:---:|:---:|:---:|
+| <a href="https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/blob/main/docs/dashboard.md"><img src="https://raw.githubusercontent.com/dogantunagerguz/psychotechnical-renewal-tracker/main/assets/dashboard.png" width="240" alt="Renewal outreach dashboard preview"></a> | <a href="https://github.com/dogantunagerguz/driving-school-targeting-and-finance/blob/main/docs/dashboard.md"><img src="https://raw.githubusercontent.com/dogantunagerguz/driving-school-targeting-and-finance/main/assets/dashboard.png" width="240" alt="Driving-school targeting dashboard preview"></a> | <a href="https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/dashboard.md"><img src="https://raw.githubusercontent.com/dogantunagerguz/travel-agency-customer-segmentation/main/assets/dashboard.png" width="240" alt="Travel customer analysis dashboard preview"></a> |
+| Who should staff contact next? | Which licence upgrades fit, and what do costs show? | Who returns, and when do they book? |
+| [Workflow](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/blob/main/docs/decision-workflow.md) · [Demo](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker#run-the-public-demo) | [Workflow](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/blob/main/docs/decision-workflow.md) · [Demo](https://github.com/dogantunagerguz/driving-school-targeting-and-finance#run-the-public-demo) | [Workflow](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/decision-workflow.md) · [Demo](https://github.com/dogantunagerguz/travel-agency-customer-segmentation#run-the-public-demo) |
 
 The operational reports use private company data. Public repositories provide anonymised screenshots, synthetic-data Power BI demos and separate SQL companions.
 
