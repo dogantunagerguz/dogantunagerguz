@@ -103,6 +103,9 @@ These checks validate the public companions and demo sources. They do not run Po
 
 **Tools:** Power BI · DAX · Power Query · SQL / SQLite · Python · Excel · Git
 
+**Forecasting:** Stocked-day baseline; format × category lift; 12-promotion backtest; interval and order rule | [Code](https://github.com/dogantunagerguz/promotion-demand-forecast/blob/main/forecast_p19.py) · [Notebook](https://github.com/dogantunagerguz/promotion-demand-forecast/blob/main/claims_analysis.ipynb) · [Memo](https://github.com/dogantunagerguz/promotion-demand-forecast/blob/main/docs/memo.pdf) |
+
+**Certificates:**
 - Microsoft Certified: Power BI Data Analyst Associate
 - [IBM / Coursera: Databases and SQL for Data Science with Python](https://coursera.org/verify/YBWV668PB596)
 - M.A. International Management · B.Sc. Industrial Engineering
