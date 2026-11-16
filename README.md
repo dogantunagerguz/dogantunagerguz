@@ -70,6 +70,18 @@ Targeting preview; the linked walkthrough also covers finance. Screenshot select
 Earlier Power BI export; the current model uses the shorter Customers KPI caption. Public figures are anonymised or synthetic.
 </details>
 
+## Forecasting case study
+
+### Promotion demand forecasting
+
+**The task:** A retail-analytics take-home case — explain why a chain's promotion forecast missed, test four commercial beliefs, forecast demand for the next promotion week with an 80 % interval, and set order quantities per store.
+
+**My decisions:** Separate sales from demand on days the shelf emptied; learn the promotion lift per store format and category instead of one number for all; backtest the method on twelve past promotions and calibrate from the result; size the order with a newsvendor rule.
+
+**Result:** 19,848 units with an 80 % range of 18,100–21,900; reviewers re-ran the pipeline and got identical outputs. Their written feedback and my planned revisions are in the README.
+
+[Project and code](https://github.com/dogantunagerguz/promotion-demand-forecast) · [Method and findings](https://github.com/dogantunagerguz/promotion-demand-forecast#the-method) · [What I'd do differently](https://github.com/dogantunagerguz/promotion-demand-forecast#what-id-do-differently)
+
 ## Technical evidence
 
 Each SQL companion documents sources, table grain, transformation logic, KPI denominators, quality checks and reproducible results. SQL uses synthetic data and is separate from the operational Power BI workflow.
