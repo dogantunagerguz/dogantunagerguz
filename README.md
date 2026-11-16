@@ -82,6 +82,26 @@ Earlier Power BI export; the current model uses the shorter Customers KPI captio
 
 [Project and code](https://github.com/dogantunagerguz/promotion-demand-forecast) · [Method and findings](https://github.com/dogantunagerguz/promotion-demand-forecast#the-method) · [What I'd do differently](https://github.com/dogantunagerguz/promotion-demand-forecast#what-id-do-differently)
 
+## Public-data analysis
+
+### City of Austin procurement (FY2023)
+
+**The question:** Where does a city's goods spend go? How concentrated are suppliers, when are orders placed, and how much runs through master agreements? 10,699 purchase-order lines worth $326M, analysed in Python with pandas.
+
+**Approach:** Measure spend by line amount, because half of the lines carry an amount but no quantity (45 % of spend); group suppliers by code, not name; test the expected year-end spike against order dates; flag a price comparison the data cannot support.
+
+**Result:** The top 10 of 916 suppliers take 37.4 % of spend. There is no September spike: 23 % of order value lands in October, when annual blanket orders open. 93.2 % of spend runs through master agreements.
+
+[Project and code](https://github.com/dogantunagerguz/austin-procurement-analysis) · [Notebook](https://github.com/dogantunagerguz/austin-procurement-analysis/blob/main/austin_procurement_fy2023.ipynb) · [Limitations](https://github.com/dogantunagerguz/austin-procurement-analysis#limitations)
+
+<details>
+<summary>View the monthly spend chart</summary>
+
+<a href="https://github.com/dogantunagerguz/austin-procurement-analysis#2-timing"><img src="https://raw.githubusercontent.com/dogantunagerguz/austin-procurement-analysis/main/images/monthly_spend.png" width="680" alt="Monthly purchase order value, with October far above the monthly average and September the lowest month"></a>
+
+Order dates, not payment dates; one fiscal year only.
+</details>
+
 ## Technical evidence
 
 Each SQL companion documents sources, table grain, transformation logic, KPI denominators, quality checks and reproducible results. SQL uses synthetic data and is separate from the operational Power BI workflow.
