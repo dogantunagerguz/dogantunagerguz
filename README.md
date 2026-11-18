@@ -60,7 +60,7 @@ Targeting preview; the linked walkthrough also covers finance. Screenshot select
 
 **Daily use:** Lifecycle, booking timing and hotel-location views support sales conversations across two branches and approximately 4,500 customer records. Reports refresh manually. Customer identity is name-based, lifecycle windows use 2026, and recommendation conversion has not been measured.
 
-[Project and code](https://github.com/dogantunagerguz/travel-agency-customer-segmentation) · [Data gaps and modelling decisions](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/story.md#what-i-built)
+[Project and code](https://github.com/dogantunagerguz/travel-agency-customer-segmentation) · [End-to-end BI pipeline](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/end-to-end-bi-pipeline.md) · [Data gaps and modelling decisions](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/story.md#what-i-built)
 
 <details>
 <summary>View the customer analysis dashboard</summary>
@@ -110,7 +110,7 @@ Each SQL companion documents sources, table grain, transformation logic, KPI den
 |---|---|---|
 | **Renewal** | Strict date and identity checks; missing-result handling; atomic snapshot replacement with replay and rollback regressions | [SQL](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/tree/main/sql) · [Results](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/blob/main/sql/RESULTS.md) · [Test evidence](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/blob/main/sql/TEST_EVIDENCE.md) |
 | **Driving school** | Eligibility rules; finance pre-aggregation; ranking and source reconciliation | [SQL](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/tree/main/sql) · [Results](https://github.com/dogantunagerguz/driving-school-targeting-and-finance/blob/main/sql/RESULTS.md) |
-| **Travel** | Hotel-key normalisation; reservation-grain checks; lifecycle, LAG and DENSE_RANK | [SQL](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/tree/main/sql) · [Results](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/sql/RESULTS.md) |
+| **Travel** | Raw/staging layers; customer-hotel-date star schema; reservation-grain checks; lifecycle, LAG and DENSE_RANK | [Pipeline](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/docs/end-to-end-bi-pipeline.md) · [SQL](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/tree/main/sql) · [Results](https://github.com/dogantunagerguz/travel-agency-customer-segmentation/blob/main/sql/RESULTS.md) |
 
 **Automated Python/SQL checks:**<br>
 Renewal [![Renewal tests](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dogantunagerguz/psychotechnical-renewal-tracker/actions/workflows/ci.yml) ·
