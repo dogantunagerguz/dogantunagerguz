@@ -80,7 +80,7 @@ Earlier Power BI export; the current model uses the shorter Customers KPI captio
 
 **Result:** 19,848 units with an 80 % range of 18,100–21,900; reviewers re-ran the pipeline and got identical outputs. Their written feedback and my planned revisions are in the README.
 
-[Project and code](https://github.com/dogantunagerguz/promotion-demand-forecast) · [Method and findings](https://github.com/dogantunagerguz/promotion-demand-forecast#the-method) · [What I'd do differently](https://github.com/dogantunagerguz/promotion-demand-forecast#what-id-do-differently)
+[Project and code](https://github.com/dogantunagerguz/promotion-demand-forecast) · [Junior Gurobi extension](https://github.com/dogantunagerguz/promotion-demand-forecast/tree/main/optimization) · [Method and findings](https://github.com/dogantunagerguz/promotion-demand-forecast#the-method) · [What I'd do differently](https://github.com/dogantunagerguz/promotion-demand-forecast#what-id-do-differently)
 
 ## Public-data analysis
 
@@ -92,7 +92,7 @@ Earlier Power BI export; the current model uses the shorter Customers KPI captio
 
 **Result:** The top 10 of 916 suppliers take 37.4 % of spend. There is no September spike: 23 % of order value lands in October, when annual blanket orders open. 93.2 % of spend runs through master agreements.
 
-[Project and code](https://github.com/dogantunagerguz/austin-procurement-analysis) · [Notebook](https://github.com/dogantunagerguz/austin-procurement-analysis/blob/main/austin_procurement_fy2023.ipynb) · [Limitations](https://github.com/dogantunagerguz/austin-procurement-analysis#limitations)
+[Project and code](https://github.com/dogantunagerguz/austin-procurement-analysis) · [Junior DuckDB and REST extension](https://github.com/dogantunagerguz/austin-procurement-analysis/blob/main/docs/junior-data-stack.md) · [Notebook](https://github.com/dogantunagerguz/austin-procurement-analysis/blob/main/austin_procurement_fy2023.ipynb) · [Limitations](https://github.com/dogantunagerguz/austin-procurement-analysis#limitations)
 
 <details>
 <summary>View the monthly spend chart</summary>
@@ -121,7 +121,7 @@ These checks validate the public companions and demo sources. They do not run Po
 
 ## Tools and credentials
 
-**Tools:** Power BI · DAX · Power Query · SQL / SQLite · Python · Excel · Git
+**Tools:** Power BI · DAX · Power Query · SQL / SQLite · Python · DuckDB · REST APIs · Git/GitHub Actions · Gurobi · Excel
 
 **Forecasting:** Stocked-day baseline; format × category lift; 12-promotion backtest; interval and order rule | [Code](https://github.com/dogantunagerguz/promotion-demand-forecast/blob/main/forecast_p19.py) · [Notebook](https://github.com/dogantunagerguz/promotion-demand-forecast/blob/main/claims_analysis.ipynb) · [Memo](https://github.com/dogantunagerguz/promotion-demand-forecast/blob/main/docs/memo.pdf) |
 
